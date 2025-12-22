@@ -1,11 +1,16 @@
 ## SALES DATA ANALYSIS
 
 ## Overview
-This project analyzes sales data to identify top performing products, cities, managers and also tracks monthly and daily revenue over time using clear visualizatiions
+In this project, I worked with a sales dataset to clean, explore, and visualize data. I focused on exploring patterns to gain more insight on sales trends and understand business performance.
+
+
+<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/6b422dea-f4fb-4633-a983-ddc77e7ce660" />   <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/f3b8bcb9-dc74-4a5d-9cb5-5ad6303eeb3a" />
+
+
 
 ## What This Project Does
 
-It helps businesses understand their sales performance by answering questions like:
+It helps improve understanding of sales performance by answering questions like:
 1. Which products generate the most revenue?
 2. Which cities or regions perform best?
 3. How do sales trend over time?
@@ -20,14 +25,14 @@ The sales data contains:
 - **Date**: When the sale occurred
 - **Product**: What was sold
 - **Price**: Price per unit
-- **Quantity**: Number of units sold
 - **Purchase Type**: Category of purchase
-- **Payment Method**: How customer paid
 - **Manager**: Sales manager responsible
 - **City**: Location of sale
+- **Revenue**: Total sales amount
+- **"Date**: Year, Month and Day of transaction
 
 ## Technologies
-Python | Pandas | Matplotlib
+Python, Pandas, NumPy, Matplotlib
 
 
 ## What I Learned Building This
@@ -39,12 +44,10 @@ Python | Pandas | Matplotlib
 - **Code organization**: Separating concerns into clean, reusable modules
 - **Documentation**: Writing clear docstrings and READMEs
 
-## Next Steps / Ideas for Improvement
+## Ideas for Improvement
 
 - [ ] Add correlation analysis (e.g., does price affect quantity?)
 - [ ] Create a dashboard using Excel
 - [ ] Add more precise statistical tests
 - [ ] Explore visualizations techniques
 - [ ] Include seasonal analysis (comparing Q1 vs Q2)
-
-This is a learning project. Feel free to use and modify as needed
