@@ -1,7 +1,7 @@
 ## SALES DATA ANALYSIS
 
 ## Overview
-In this project, I worked with a sales dataset to clean, explore, and visualize data. I focused on exploring patterns to gain more insight on sales trends and understand business performance.
+In this project, I worked with a sales dataset to clean, explore, and visualize data. I focused on identifying patterns to gain more insight on sales trends and understand business performance.
 
 
 <img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/6b422dea-f4fb-4633-a983-ddc77e7ce660" />   <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/f3b8bcb9-dc74-4a5d-9cb5-5ad6303eeb3a" />
