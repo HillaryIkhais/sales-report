@@ -10,13 +10,12 @@ In this project, I worked with a sales dataset to clean, explore, and visualize 
 
 ## What This Project Does
 
-It helps improve understanding of sales performance by answering questions like:
-1. Which products generate the most revenue?
-2. Which cities or regions perform best?
-3. How do sales trend over time?
-4. Are there patterns by day of week?
-5. Which managers are top performers?
-
+The goal of this project is to analyze sales data to understand:
+1. Which products generate the most revenue
+2. How sales perform across different regions
+3. Monthly sales trends over time
+   
+These insights can help businesses make better decisions about inventory, marketing, and regional focus.
 
 ## Dataset
 
@@ -34,7 +33,11 @@ The sales data contains:
 ## Technologies
 Python, Pandas, NumPy, Matplotlib
 
-
+## Key Insights
+- Burgers contribute a significantly higher percentage of total revenue compared to others.
+- Lisbon consistently outperform others in sales volume.
+- Sales show noticeable trends across months, with the highest revenue in November suggesting possible seasonality.
+  
 ## What I Learned Building This
 
 - **Data cleaning**: Handling missing values, duplicates, and data type conversions
