@@ -3,8 +3,10 @@
 ## Overview
 In this project, I worked with a sales dataset to clean, explore, and visualize data. I focused on identifying patterns to gain more insight on sales trends and understand business performance.
 
+[Monthly Revenue] <img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/4d7bc228-0d7d-4872-8146-46330ad461e8" />
 
-<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/6b422dea-f4fb-4633-a983-ddc77e7ce660" />   <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/f3b8bcb9-dc74-4a5d-9cb5-5ad6303eeb3a" />
+[Top Products By Revenue]
+<img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/f3b8bcb9-dc74-4a5d-9cb5-5ad6303eeb3a" />
 
 
 
