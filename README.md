@@ -9,7 +9,6 @@ In this project, I worked with a sales dataset to clean, explore, and visualize 
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/f3b8bcb9-dc74-4a5d-9cb5-5ad6303eeb3a" />
 
 
-
 ## What This Project Does
 
 The goal of this project is to analyze sales data to understand:
