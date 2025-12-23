@@ -20,7 +20,7 @@ def rank_best_managers(salesdata, top_n):
 
 #Calculate monthly revenue
 def monthly_revenue(salesdata):
-    return salesdata.groupby(['Year', 'Month'])['Revenue'].sum()
+    return salesdata.groupby(['Year', 'Month'])['Revenue'].sum().sort_index()
 
 #Calculate daily revenue, .groupby() is simply to group output by specified terms, in this case day of the week and revenue
 def daily_revenue(salesdata):

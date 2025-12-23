@@ -13,6 +13,14 @@ def clean_data(salesdata):
     
     salesdata['Year'] = salesdata['Date'].dt.year
     salesdata['Month'] = salesdata['Date'].dt.month_name()
+    month_order = [
+    'January', 'February', 'March', 'April',
+    'May', 'June', 'July', 'August',
+    'September', 'October', 'November', 'December']
+    salesdata['Month'] = pd.Categorical(
+    salesdata['Month'],
+    categories=month_order,
+    ordered=True)
     salesdata['Day'] = salesdata['Date'].dt.day
     salesdata['DayOfWeek'] = salesdata['Date'].dt.day_name()
     salesdata['Quarter'] = salesdata['Date'].dt.quarter
