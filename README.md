@@ -96,7 +96,7 @@ bash
 ## What's Next
 
 - [ ] Correlation analysis - How does price sensitivity vary by region?
-- [ ] Interactive dashboard (Power BI or Plotly Dash)
+- [ ] Intera1ctive dashboard (Power BI or Plotly Dash)
 - [ ] Q4 revenue forecasting model
 - [ ] Statistical significance testing on seasonal trends
 
@@ -104,6 +104,6 @@ bash
 
 ## About
 
-**I am Hillary Ikhais, a Data Analyst specializing in Python-based analysis and translating raw data into business decisions.**
+**I am Hillary Ikhais, a Data Analyst specializing in Python based analysis and translating raw data into business decisions.**
 
  Open to freelance projects. [View more work on GitHub](https://github.com/HillaryIkhais)
