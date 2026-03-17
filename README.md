@@ -96,7 +96,7 @@ bash
 ## What's Next
 
 - [ ] Correlation analysis - How does price sensitivity vary by region?
-- [ ] Intera1ctive dashboard (Power BI or Plotly Dash)
+- [ ] Interactive dashboard (Power BI or Plotly Dash)
 - [ ] Q4 revenue forecasting model
 - [ ] Statistical significance testing on seasonal trends
 
