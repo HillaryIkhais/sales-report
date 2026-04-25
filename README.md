@@ -1,16 +1,18 @@
 ## Sales Performance Analysis
 
-> Identifying revenue stream and seasonal patterns to support smarter business decisions.
+Identifying revenue drivers and seasonal patterns to improve business decisions
 
 ---
 
 ## The Business Problem
 
-Many businesses track sales without knowing "why" their numbers go up or down. This project answers three questions any sales manager actually cares about:
+Most businesses track sales data but fail to understand what actually drives revenue growth.
 
-- **Which products are carrying the business?** (And which ones aren't)
-- **Which regions should get more resources?** (Based on actual performance)
-- **When does revenue peak and why?** (To plan inventory and marketing around real demand)
+This leads to:
+Over reliance on a small number of products
+Uneven regional performance going unnoticed
+Poor demand planning across seasons
+This analysis identifies where revenue is generated, where it is lost, and what drives performance differences.
 
 ---
 
@@ -18,11 +20,19 @@ Many businesses track sales without knowing "why" their numbers go up or down. T
 
 | Finding | Business Implication |
 |---|---|
-| Burgers dominate total revenue | One product category is driving a disproportionate share of income, that is, a concentration risk worth flagging to leadership |
-| Lisbon consistently outperforms all other cities | Regional disparity suggests either market differences or management quality gaps worth investigating |
-| November shows the highest revenue spike | Strong seasonality signal inventory and staffing should be scaled up ahead of Q4, not during it |
+| Burgers dominate total revenue | Revenue is heavily concentrated in one product category, creating dependency risk |
+| Lisbon consistently outperforms all other cities | Strong regional imbalance suggests either demand differences or operational gaps |
+| November shows the highest revenue spike | Clear seasonal trend. Demand planning should be focused ahead of Q4 |
 
-**So what does this mean?** A business acting on these findings could: double down on top products, replicate Lisbon's approach in underperforming regions, and start Q4 prep in September not November.
+- Revenue is highly concentrated in a small product group
+- Regional performance varies significantly across cities
+- Sales are predictably seasonal, with Q4 being the strongest period
+
+
+**What does this mean** 
+- Revenue is not evenly distributed across products or regions. Growth depends on optimizing a few high-impact areas rather than treating all segments equally.
+ Improving performance depends on optimizing a few high-impact areas rather than treating all segments equally.
+If unmanaged, dependency on a single product or region can create unstable revenue streams.
 
 ---
 
@@ -44,22 +54,16 @@ Transactional sales records containing:
 
 
 ## Methodology
-
-
-
-1. **Data Cleaning** Handled missing values, duplicates, and type conversions
-2. **Feature Engineering** Extracted month/year from dates; computed revenue per transaction
-3. **Aggregation** GroupBy operations across product, city, and time dimensions
-4. **Visualization** Charts to surface patterns invisible in raw tables
+- Cleaned and standardized transactional data
+- Extracted time based features (month, year)
+- Aggregated performance by product, city, and time
+- Visualized trends to identify patterns in revenue behavior
 
 ---
 
-## Tech Stack
+## Tools Used
 
-• Python
-• Pandas
-• NumPy
-• Matplotlib
+• Python (Pandas, NumPy, Matplotlib)
 
 ---
 
@@ -93,17 +97,7 @@ bash
 
 ---
 
-## What's Next
-
-- [ ] Correlation analysis - How does price sensitivity vary by region?
-- [ ] Interactive dashboard (Power BI or Plotly Dash)
-- [ ] Q4 revenue forecasting model
-- [ ] Statistical significance testing on seasonal trends
-
----
-
-## About
-
-**I am Hillary Ikhais, a Data Analyst specializing in Python based analysis and translating raw data into business decisions.**
-
- Open to freelance projects. [View more work on GitHub](https://github.com/HillaryIkhais)
+## What this analysis enables
+- Identify products worth scaling
+- Improve underperforming regions
+- Plan inventory and marketing around demand cycles
